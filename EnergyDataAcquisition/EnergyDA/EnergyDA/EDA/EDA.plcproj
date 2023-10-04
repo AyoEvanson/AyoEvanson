@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FileVersion>1.0.0.0</FileVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b11f4577-ab23-4c31-932c-7d305dbbf892}</ProjectGuid>
+    <SubObjectsSortedByName>True</SubObjectsSortedByName>
+    <DownloadApplicationInfo>true</DownloadApplicationInfo>
+    <WriteProductVersion>true</WriteProductVersion>
+    <GenerateTpy>false</GenerateTpy>
+    <Name>EDA</Name>
+    <ProgramVersion>3.1.4024.0</ProgramVersion>
+    <Application>{4b272dff-8f72-4caf-ab40-319ffcd22a4b}</Application>
+    <TypeSystem>{94c27fc0-2642-43ae-a137-6b2cb1c06751}</TypeSystem>
+    <Implicit_Task_Info>{4fde8a08-6130-4fa8-b17a-15ff9ca8879c}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{b650d87b-58e1-468e-9ac0-0b9268e33d3d}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{fb7a4326-75e4-4591-a63f-89a8022fc81b}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{58870853-8f32-40a6-8d4d-395e6f12d1c1}</LibraryReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PlcTask.TcTTO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\MAIN.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DUTs" />
+    <Folder Include="GVLs" />
+    <Folder Include="VISUs" />
+    <Folder Include="POUs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PlaceholderReference Include="Tc2_Standard">
+      <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_Standard</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_System">
+      <DefaultResolution>Tc2_System, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_System</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc3_Module">
+      <DefaultResolution>Tc3_Module, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc3_Module</Namespace>
+    </PlaceholderReference>
+  </ItemGroup>
+  <ProjectExtensions>
+    <PlcProjectOptions>
+      <XmlArchive>
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
+      <v n="Name">"&lt;ProjectRoot&gt;"</v>
+      <d n="SubKeys" t="Hashtable" />
+      <d n="Values" t="Hashtable" />
+    </o>
+  </Data>
+  <TypeList>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
+    </PlcProjectOptions>
+  </ProjectExtensions>
+</Project>
