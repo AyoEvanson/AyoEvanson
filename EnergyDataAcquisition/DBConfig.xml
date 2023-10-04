@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="yes"?>
+<Configuration xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="CurrentConfigDataStores.xsd">
+	<Header>
+		<Configurator>TF6420 Database Configurator 3.0</Configurator>
+		<Timestamp>2023-10-04T11:33:01</Timestamp>
+		<FileVersion>2.1</FileVersion>
+		<TargetSystemNetID>10.112.0.37.1.1</TargetSystemNetID>
+	</Header>
+	<GlobalConfig>
+		<GCfg Name="LogMode">1</GCfg>
+		<GCfg Name="LogPath">C:\TwinCAT\Functions\TF6420-Database-Server\Win32\Server</GCfg>
+		<GCfg Name="MaxLogFileSize">10</GCfg>
+		<GCfg Name="Impersonate">0</GCfg>
+		<GCfg Name="DBNULLAllowed">False</GCfg>
+		<GCfg Name="DBConnectionTimeout">15</GCfg>
+		<GCfg Name="DBCommandTimeout">30</GCfg>
+		<GCfg Name="MaxByteArrayLength">256</GCfg>
+		<GCfg Name="MaxStringLength">256</GCfg>
+		<GCfg Name="WSTRINGSupportActive">False</GCfg>
+		<GCfg Name="PwdInfos">tZuYPxhe+G5NKHWLYSZE+N/7qiYGJ4dA</GCfg>
+	</GlobalConfig>
+	<BaseConfig>
+		<DataStores>
+			<Databases>
+				<Database Type="2" Name="DB">
+					<DBId>1</DBId>
+					<DBServer>AYO-NB8</DBServer>
+					<DBProvider>SQLOLEDB</DBProvider>
+					<DBDatabase>PyADS</DBDatabase>
+					<DBAuthentication>False</DBAuthentication>
+					<AdditionalParameter>
+						<Parameter Name="Integrated Security" Value="SSPI" />
+					</AdditionalParameter>
+				</Database>
+			</Databases>
+		</DataStores>
+		<Devices>
+			<AdsDevice DeviceName="AdsDevice">
+				<DeviceId>1</DeviceId>
+				<NetID>5.119.159.52.1.1</NetID>
+				<Port>851</Port>
+				<ADSReadWriteSetting>1</ADSReadWriteSetting>
+			</AdsDevice>
+		</Devices>
+		<AutoLogGroups>
+			<AutoLogGroup Name="AutoLogGroup">
+				<AutoLogGrpID>1</AutoLogGrpID>
+				<StartUp>MANUAL</StartUp>
+				<Direction>DeviceAsSource</Direction>
+				<WriteSettings>
+					<WriteMode>APPEND</WriteMode>
+				</WriteSettings>
+				<SamplingSettings>
+					<SamplingMode>cyclic</SamplingMode>
+					<SamplingRate>500</SamplingRate>
+				</SamplingSettings>
+				<Database>
+					<DBId>1</DBId>
+					<DBTable Name="dbo.EL3443">
+						<ID>1</ID>
+						<TableMode>CUSTOM</TableMode>
+						<FailoverTableName>
+						</FailoverTableName>
+						<Columns>
+							<Column Type="1" Mode="AUTOID" SymbolID="0">id</Column>
+							<Column Type="6" Mode="MAPPED" SymbolID="1">fVoltage</Column>
+							<Column Type="6" Mode="MAPPED" SymbolID="2">fCurrent</Column>
+							<Column Type="6" Mode="MAPPED" SymbolID="3">fAcPower</Column>
+							<Column Type="6" Mode="MAPPED" SymbolID="4">fApPower</Column>
+							<Column Type="6" Mode="MAPPED" SymbolID="5">fRePower</Column>
+							<Column Type="6" Mode="MAPPED" SymbolID="6">fPQF</Column>
+							<Column Type="6" Mode="MAPPED" SymbolID="7">fFreq</Column>
+						</Columns>
+					</DBTable>
+				</Database>
+				<Device>
+					<DeviceId>1</DeviceId>
+					<Timeout>2000</Timeout>
+				</Device>
+				<Symbols>
+					<AdsSymbol ID="1" Type="REAL" IGroup="16448" IOffset="385012" BitSize="32" AllocationName="EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Voltage">GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Voltage</AdsSymbol>
+					<AdsSymbol ID="2" Type="REAL" IGroup="16448" IOffset="385016" BitSize="32" AllocationName="EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Current">GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Current</AdsSymbol>
+					<AdsSymbol ID="3" Type="REAL" IGroup="16448" IOffset="385020" BitSize="32" AllocationName="EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Active_Power">GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Active_Power</AdsSymbol>
+					<AdsSymbol ID="4" Type="REAL" IGroup="16448" IOffset="385024" BitSize="32" AllocationName="EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Apparent_Power">GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Apparent_Power</AdsSymbol>
+					<AdsSymbol ID="5" Type="REAL" IGroup="16448" IOffset="385028" BitSize="32" AllocationName="EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Reactive_Power">GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Reactive_Power</AdsSymbol>
+					<AdsSymbol ID="6" Type="REAL" IGroup="16448" IOffset="385088" BitSize="32" AllocationName="EL3443.MDP5001_341_Input.MDP5001_341_Total_Status_Power_Quality_Factor">GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Status_Power_Quality_Factor</AdsSymbol>
+					<AdsSymbol ID="7" Type="REAL" IGroup="16448" IOffset="385092" BitSize="32" AllocationName="EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Frequency">GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Frequency</AdsSymbol>
+				</Symbols>
+			</AutoLogGroup>
+		</AutoLogGroups>
+	</BaseConfig>
+</Configuration>
