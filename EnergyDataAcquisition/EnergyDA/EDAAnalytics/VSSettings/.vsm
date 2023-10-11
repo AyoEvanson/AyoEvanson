@@ -4,33 +4,22 @@
   <FileName></FileName>
   <Children>
     <Node>
-      <Title>Analytics Project</Title>
-      <Expanded>False</Expanded>
-      <FileName>C:\Users\AyoO\Documents\3. Energy Sector\EnergyDataAcquisition\EnergyDA\EDAAnalytics\Analytics Project.tcAlyProj</FileName>
+      <Title>Analytics Project1</Title>
+      <Expanded>True</Expanded>
+      <FileName>C:\Users\AyoO\Documents\3. Energy Sector\EnergyDataAcquisition\EnergyDA\EDAAnalytics\Analytics Project1.tcAlyProj</FileName>
       <Children>
         <Node>
           <Title>Network</Title>
-          <Expanded>False</Expanded>
+          <Expanded>True</Expanded>
           <FileName></FileName>
-          <Children />
-        </Node>
-        <Node>
-          <Title>Network (1)</Title>
-          <Expanded>False</Expanded>
-          <FileName></FileName>
-          <Children />
-        </Node>
-        <Node>
-          <Title>Network (2)</Title>
-          <Expanded>False</Expanded>
-          <FileName></FileName>
-          <Children />
-        </Node>
-        <Node>
-          <Title>Network (3)</Title>
-          <Expanded>False</Expanded>
-          <FileName></FileName>
-          <Children />
+          <Children>
+            <Node>
+              <Title>Min Max Avg 1Ch</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+          </Children>
         </Node>
         <Node>
           <Title>Dashboard</Title>
@@ -40,22 +29,354 @@
         </Node>
         <Node>
           <Title>Inputs</Title>
-          <Expanded>False</Expanded>
+          <Expanded>True</Expanded>
           <FileName></FileName>
           <Children>
             <Node>
               <Title>Virtual Mappings</Title>
+              <Expanded>True</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>Virtual Input Source</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>MDP5001_341_L1_Basic_Voltage</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_L1_Basic_Current</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_L1_Power_Active_Power</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_L1_Power_Apparent_Power</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_L1_Power_Reactive_Power</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_L1_Power_Power_Factor</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_L1_Energy_Active_Energy</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_L1_Energy_Apparent_Energy</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_L1_Energy_Reactive_Energy</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_Total_Status_Power_Quality_Factor</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_Total_Basic_Frequency</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_Total_Basic_Power_Factor</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MDP5001_341_Total_Basic_Calculated_Neutral_Line_Current</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Title>Sources</Title>
+              <Expanded>True</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>PLC 1</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Current</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Voltage</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Energy_Active_Energy</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Energy_Apparent_Energy</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Energy_Reactive_Energy</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Active_Power</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Apparent_Power</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Power_Factor</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Reactive_Power</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Calculated_Neutral_Line_Current</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Frequency</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Power_Factor</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Status_Power_Quality_Factor</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>TimeLine</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+      </Children>
+    </Node>
+    <Node>
+      <Title>Referenced Scope Project</Title>
+      <Expanded>True</Expanded>
+      <FileName>C:\Users\AyoO\Documents\3. Energy Sector\EnergyDataAcquisition\EnergyDA\EDAAnalytics\Referenced Scope Project.tcscopex</FileName>
+      <Children>
+        <Node>
+          <Title>DataPool</Title>
+          <Expanded>False</Expanded>
+          <FileName></FileName>
+          <Children>
+            <Node>
+              <Title>Avg @ Min Max Avg 1Ch</Title>
               <Expanded>False</Expanded>
               <FileName></FileName>
               <Children />
             </Node>
             <Node>
-              <Title>Sources</Title>
+              <Title>Max @ Min Max Avg 1Ch</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_L1_Basic_Current</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_L1_Basic_Voltage</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_L1_Energy_Active_Energy</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_L1_Energy_Apparent_Energy</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_L1_Energy_Reactive_Energy</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_L1_Power_Active_Power</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_L1_Power_Apparent_Power</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_L1_Power_Power_Factor</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_L1_Power_Reactive_Power</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_Total_Basic_Calculated_Neutral_Line_Current</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_Total_Basic_Frequency</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_Total_Basic_Power_Factor</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>MDP5001_341_Total_Status_Power_Quality_Factor</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>Min @ Min Max Avg 1Ch</Title>
               <Expanded>False</Expanded>
               <FileName></FileName>
               <Children />
             </Node>
           </Children>
+        </Node>
+        <Node>
+          <Title>Network</Title>
+          <Expanded>True</Expanded>
+          <FileName></FileName>
+          <Children>
+            <Node>
+              <Title>REAL32</Title>
+              <Expanded>True</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>MDP5001_341_Total_Status_Power_Quality_Factor</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>Min @ Min Max Avg 1Ch</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>Max @ Min Max Avg 1Ch</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>Avg @ Min Max Avg 1Ch</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Title>Trigger</Title>
+          <Expanded>False</Expanded>
+          <FileName></FileName>
+          <Children />
         </Node>
       </Children>
     </Node>

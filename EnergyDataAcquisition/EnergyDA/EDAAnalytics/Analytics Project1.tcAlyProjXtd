@@ -1,0 +1,646 @@
+﻿<AnalyticsProjectAdditionalElements>
+  <HMICtrlInfo AssemblyName="TwinCAT.Analytics.CodeGenerator.HMI">
+    <Clsid>02040109-0000-0000-f000-000000000064</Clsid>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <DisplayText>Min Max Avg 1Ch</DisplayText>
+    <DockOnDesktop>false</DockOnDesktop>
+    <GenerateGVL>false</GenerateGVL>
+    <GlobalVariableType>InOutVariables</GlobalVariableType>
+    <Guid>0ffc4904-9694-4c3a-9bea-dafe55da412f</Guid>
+    <ModuleIdentification>00000000-0000-0000-0000-000000000000</ModuleIdentification>
+    <Name>HMICtrlInfo_1228</Name>
+    <ReferencedModule>CTcAlyMinMaxAvg_1Ch</ReferencedModule>
+    <SelectedMapping>
+      <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+      <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+    </SelectedMapping>
+    <SortPriority>100</SortPriority>
+    <Title>HMICtrlInfo_1228</Title>
+  </HMICtrlInfo>
+  <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
+    <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+    <CollapsedMembers>
+      <InVariable IncludeInReferencedScope="True">2147483648</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483664</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483665</InVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260864</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260872</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260880</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260888</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260896</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260904</OutVariable>
+    </CollapsedMembers>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>5d78a29e-db41-47da-97f6-e35aafd597fd</Guid>
+    <IncludeInReferencedScope>true</IncludeInReferencedScope>
+    <IncludeInReport>true</IncludeInReport>
+    <Name>FunctionAppearance_1229</Name>
+    <ParentNetworkEnabled>true</ParentNetworkEnabled>
+    <ReferencedModule>CTcAlyMinMaxAvg_1Ch</ReferencedModule>
+    <RptDataKey />
+    <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+    <SelectedReportingMappingId>
+      <CtrlAlgMapGuid>997c5c25-9a39-45e4-aa05-100000001001</CtrlAlgMapGuid>
+      <AlgorithmGuid>35cfd307-6b82-4936-91e9-100000000006</AlgorithmGuid>
+    </SelectedReportingMappingId>
+    <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+    <SelfEnabled>true</SelfEnabled>
+    <ShowOptionalInputs>false</ShowOptionalInputs>
+    <SortPriority>100</SortPriority>
+    <Title>FunctionAppearance_1229</Title>
+  </FunctionAppearance>
+  <FunctionResultInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <Comment />
+    <CreateResult>false</CreateResult>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>a1aa2600-2fb5-4552-8652-5f0cfbbefc76</Guid>
+    <Name>FunctionResultInfo_1230</Name>
+    <ReferencedModule>CTcAlyMinMaxAvg_1Ch</ReferencedModule>
+    <SortPriority>100</SortPriority>
+    <Title>FunctionResultInfo_1230</Title>
+    <TriggerResult>false</TriggerResult>
+  </FunctionResultInfo>
+  <InputSourceInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <ChartGuid>8ba3222b-6334-48a3-bd93-c5840966540f</ChartGuid>
+    <Comment />
+    <CycleTime>10000000</CycleTime>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>d7c8ed00-9a82-468b-b738-c912aa5c2496</Guid>
+    <HasCustomTitle>true</HasCustomTitle>
+    <Name>InputSourceInfo_1140</Name>
+    <ReferencedModule>5abb7ee1-71ec-473f-a5e2-6b6d924917ef</ReferencedModule>
+    <ReferencedTitle>5.119.159.52.1.1:851</ReferencedTitle>
+    <SortPriority>100</SortPriority>
+    <SourceInfo>&lt;TargetInfo TargetId="0"&gt;
+  &lt;AmsAddress&gt;
+    &lt;AmsNetId&gt;5.119.159.52.1.1&lt;/AmsNetId&gt;
+    &lt;Port&gt;851&lt;/Port&gt;
+  &lt;/AmsAddress&gt;
+  &lt;CycleTime Context="0"&gt;100000&lt;/CycleTime&gt;
+  &lt;CurrentContextMask&gt;0&lt;/CurrentContextMask&gt;
+&lt;/TargetInfo&gt;</SourceInfo>
+    <TimeOffset>0</TimeOffset>
+    <Title>PLC 1</Title>
+  </InputSourceInfo>
+  <Network AssemblyName="TwinCAT.Analytics.Workbench">
+    <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+    <Closed>false</Closed>
+    <ClosedTemplateGuid>00000000-0000-0000-0000-000000000000</ClosedTemplateGuid>
+    <ClosedTemplateName />
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>31405894-7b99-4721-af66-5ba0bae35999</Guid>
+    <ID>1</ID>
+    <Image16pxDataString />
+    <ImageDataString />
+    <IncludeInReferencedScope>true</IncludeInReferencedScope>
+    <IncludeInReport>false</IncludeInReport>
+    <IncludeSubMemberInReport>true</IncludeSubMemberInReport>
+    <Name>Network</Name>
+    <NetworkChartGuid>e214943f-57b9-49a4-8fcd-007f88d99636</NetworkChartGuid>
+    <ParentNetworkEnabled>true</ParentNetworkEnabled>
+    <PersistentResults>false</PersistentResults>
+    <RptDataKey>0 - Network</RptDataKey>
+    <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+    <SelectedReportingCtrlName>Reporting Table Default</SelectedReportingCtrlName>
+    <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+    <SelfEnabled>true</SelfEnabled>
+    <ShowOptional>false</ShowOptional>
+    <SortPriority>100</SortPriority>
+    <StreamResults>false</StreamResults>
+    <SubMember>
+      <HMICtrlInfo AssemblyName="TwinCAT.Analytics.CodeGenerator.HMI">
+        <Clsid>00000000-0000-0000-0000-000000000000</Clsid>
+        <Comment />
+        <DisplayColor>Black</DisplayColor>
+        <DisplayText>Network</DisplayText>
+        <DockOnDesktop>false</DockOnDesktop>
+        <GenerateGVL>false</GenerateGVL>
+        <GlobalVariableType>InOutVariables</GlobalVariableType>
+        <Guid>3b9fc1db-d131-4687-9595-f3062cd19309</Guid>
+        <ModuleIdentification>31405894-7b99-4721-af66-5ba0bae35999</ModuleIdentification>
+        <Name>HMICtrlInfo_1114</Name>
+        <ReferencedModule />
+        <SelectedMapping>
+          <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+          <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+        </SelectedMapping>
+        <SortPriority>100</SortPriority>
+        <Title>HMICtrlInfo_1114</Title>
+      </HMICtrlInfo>
+    </SubMember>
+    <Title>Network_1113</Title>
+    <TriggerResults>false</TriggerResults>
+    <VisibleArrayChartGuid>00000000-0000-0000-0000-000000000000</VisibleArrayChartGuid>
+    <VisibleNetworkChartGuid>1cb5e046-5ebe-4678-b36b-857b27572041</VisibleNetworkChartGuid>
+  </Network>
+  <ProjectInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <AxisGenerationStyle>AxisPerDataType</AxisGenerationStyle>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>e5eefa59-02a4-4e9d-ad97-f5415151bef6</Guid>
+    <GuidToElementIDReferences />
+    <Name>ProjectInfo_807</Name>
+    <RefreshRefScopeMode>Automatic</RefreshRefScopeMode>
+    <ScopeAnalyticsReferences>
+      <DictionaryItem>
+        <Key>
+          <guid>5d78a29e-db41-47da-97f6-e35aafd597fd</guid>
+        </Key>
+        <Value>
+          <ArrayOfGuid>
+            <guid>dc122ee8-3297-4787-aa5a-c91d3f209988</guid>
+            <guid>8196f6df-350e-4500-99a5-ef61b3a82178</guid>
+          </ArrayOfGuid>
+        </Value>
+      </DictionaryItem>
+      <DictionaryItem>
+        <Key>
+          <guid>31405894-7b99-4721-af66-5ba0bae35999</guid>
+        </Key>
+        <Value>
+          <ArrayOfGuid>
+            <guid>1cb5e046-5ebe-4678-b36b-857b27572041</guid>
+            <guid>1083d7fb-d81e-4bda-a559-fa7fac9e61a3</guid>
+            <guid>209883be-435e-4c0b-8b35-2d95a6aa1c0c</guid>
+          </ArrayOfGuid>
+        </Value>
+      </DictionaryItem>
+    </ScopeAnalyticsReferences>
+    <ScopeGenerationType>ChartPerNetwork</ScopeGenerationType>
+    <ScopeProjectGuid>85ab5275-1c94-47b6-b071-c201f0976e16</ScopeProjectGuid>
+    <SortPriority>100</SortPriority>
+    <Title>ProjectInfo_807</Title>
+    <UseScopeRecording>true</UseScopeRecording>
+  </ProjectInfo>
+  <VirtualMappings AssemblyName="TwinCAT.Analytics.Workbench">
+    <AutoGeneration>false</AutoGeneration>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>22dfa9dc-8870-4adb-8c7b-a07c56773b82</Guid>
+    <Name>VirtualMappings_1144</Name>
+    <SortPriority>100</SortPriority>
+    <SubMember>
+      <VirtualInputSource AssemblyName="TwinCAT.Analytics.Workbench">
+        <AutoGeneration>true</AutoGeneration>
+        <Comment />
+        <Configurations>
+          <Pair>
+            <Key>
+              <Name>Configuration</Name>
+              <Source>5abb7ee1-71ec-473f-a5e2-6b6d924917ef</Source>
+            </Key>
+            <Value>
+              <Pair>
+                <Key>d998dc46-8320-4896-a283-e32b4589bbd4</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Voltage</Value>
+              </Pair>
+              <Pair>
+                <Key>09f5640a-0061-4247-9566-22aa2d8b0cab</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Current</Value>
+              </Pair>
+              <Pair>
+                <Key>131d26c2-3616-48a4-baf5-b7ed3ccc4042</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Active_Power</Value>
+              </Pair>
+              <Pair>
+                <Key>4db8b69e-93f3-4528-a704-fc970f4f66d0</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Apparent_Power</Value>
+              </Pair>
+              <Pair>
+                <Key>1d93644d-9c92-473c-a8e1-c4b17c90642d</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Reactive_Power</Value>
+              </Pair>
+              <Pair>
+                <Key>0f7fb190-e8f0-463d-8f09-8f6cab26f510</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Power_Factor</Value>
+              </Pair>
+              <Pair>
+                <Key>c91d2632-2c8d-4b7f-a95e-2c1bc528c634</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Energy_Active_Energy</Value>
+              </Pair>
+              <Pair>
+                <Key>4d40cd52-f7c8-4b44-9b95-95d15933e520</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Energy_Apparent_Energy</Value>
+              </Pair>
+              <Pair>
+                <Key>59f1a629-8f8c-4628-9e5d-e5af10195f54</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Energy_Reactive_Energy</Value>
+              </Pair>
+              <Pair>
+                <Key>0013107a-74c9-46af-9ff5-584efa56f83d</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Status_Power_Quality_Factor</Value>
+              </Pair>
+              <Pair>
+                <Key>62aa73ef-2b3c-493c-b584-224126c3d792</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Frequency</Value>
+              </Pair>
+              <Pair>
+                <Key>22571594-d109-4019-9515-1de32f58759f</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Power_Factor</Value>
+              </Pair>
+              <Pair>
+                <Key>a7410f33-8ba4-4646-b267-73320c9233cb</Key>
+                <Value>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Calculated_Neutral_Line_Current</Value>
+              </Pair>
+            </Value>
+          </Pair>
+        </Configurations>
+        <CurrentConfig>Configuration</CurrentConfig>
+        <DisplayColor>Black</DisplayColor>
+        <Guid>0643e476-dc7f-4596-8034-b190a09a82f8</Guid>
+        <Name>VirtualInputSource_1145</Name>
+        <SortPriority>100</SortPriority>
+        <SourceGuid>5abb7ee1-71ec-473f-a5e2-6b6d924917ef</SourceGuid>
+        <SubMember>
+          <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
+            <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+            <CollapsedMembers />
+            <Comment />
+            <DisplayColor>Black</DisplayColor>
+            <Guid>35a6c330-c81e-4ae0-a799-a9cbf0baf7f8</Guid>
+            <IncludeInReferencedScope>true</IncludeInReferencedScope>
+            <IncludeInReport>true</IncludeInReport>
+            <Name>FunctionAppearance_1146</Name>
+            <ParentNetworkEnabled>true</ParentNetworkEnabled>
+            <ReferencedModule />
+            <RptDataKey />
+            <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+            <SelectedReportingMappingId>
+              <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+              <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+            </SelectedReportingMappingId>
+            <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+            <SelfEnabled>true</SelfEnabled>
+            <ShowOptionalInputs>false</ShowOptionalInputs>
+            <SortPriority>100</SortPriority>
+            <Title>FunctionAppearance_1146</Title>
+          </FunctionAppearance>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>d998dc46-8320-4896-a283-e32b4589bbd4</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1151</Name>
+            <SortPriority>1</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Voltage</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_L1_Basic_Voltage</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>09f5640a-0061-4247-9566-22aa2d8b0cab</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1156</Name>
+            <SortPriority>2</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Basic_Current</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_L1_Basic_Current</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>131d26c2-3616-48a4-baf5-b7ed3ccc4042</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1161</Name>
+            <SortPriority>3</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Active_Power</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_L1_Power_Active_Power</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>4db8b69e-93f3-4528-a704-fc970f4f66d0</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1166</Name>
+            <SortPriority>4</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Apparent_Power</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_L1_Power_Apparent_Power</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>1d93644d-9c92-473c-a8e1-c4b17c90642d</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1171</Name>
+            <SortPriority>5</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Reactive_Power</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_L1_Power_Reactive_Power</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>0f7fb190-e8f0-463d-8f09-8f6cab26f510</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1176</Name>
+            <SortPriority>6</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Power_Power_Factor</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_L1_Power_Power_Factor</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>c91d2632-2c8d-4b7f-a95e-2c1bc528c634</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1181</Name>
+            <SortPriority>7</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Energy_Active_Energy</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_L1_Energy_Active_Energy</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>4d40cd52-f7c8-4b44-9b95-95d15933e520</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1186</Name>
+            <SortPriority>8</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Energy_Apparent_Energy</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_L1_Energy_Apparent_Energy</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>59f1a629-8f8c-4628-9e5d-e5af10195f54</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1191</Name>
+            <SortPriority>9</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_L1_Energy_Reactive_Energy</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_L1_Energy_Reactive_Energy</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds>
+              <VariableID>
+                <FunctionID>16842768</FunctionID>
+                <InVariableGUID>00000000-0000-0000-0000-000000000000</InVariableGUID>
+                <InVariableID>2147483648</InVariableID>
+              </VariableID>
+            </ConnectedVariablesIds>
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>0013107a-74c9-46af-9ff5-584efa56f83d</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1196</Name>
+            <SortPriority>10</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Status_Power_Quality_Factor</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_Total_Status_Power_Quality_Factor</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>62aa73ef-2b3c-493c-b584-224126c3d792</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1201</Name>
+            <SortPriority>11</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Frequency</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_Total_Basic_Frequency</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>22571594-d109-4019-9515-1de32f58759f</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1206</Name>
+            <SortPriority>12</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Power_Factor</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_Total_Basic_Power_Factor</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds />
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>a7410f33-8ba4-4646-b267-73320c9233cb</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1211</Name>
+            <SortPriority>13</SortPriority>
+            <SourceId>GVL.EL3443.MDP5001_341_Input.MDP5001_341_Total_Basic_Calculated_Neutral_Line_Current</SourceId>
+            <StaticValue></StaticValue>
+            <Title>MDP5001_341_Total_Basic_Calculated_Neutral_Line_Current</Title>
+          </VirtualInput>
+        </SubMember>
+        <Title>Virtual Input Source</Title>
+      </VirtualInputSource>
+    </SubMember>
+    <Title>Virtual Mappings</Title>
+  </VirtualMappings>
+  <HMIDashboard AssemblyName="TwinCAT.Analytics.Workbench.HMI">
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>30ef6c33-f7d9-4720-a5a1-59b76fe0a479</Guid>
+    <Name>HMIDashboard_808</Name>
+    <ParentEnabled>true</ParentEnabled>
+    <SelfEnabled>true</SelfEnabled>
+    <SortPriority>2147483647</SortPriority>
+    <SubMember>
+      <HMIDockContentMap AssemblyName="TwinCAT.Analytics.Workbench.HMI">
+        <Comment />
+        <DisplayColor>Black</DisplayColor>
+        <Guid>b957d029-6656-4243-bd9a-7292bff8582c</Guid>
+        <HMIPermissions>
+          <Comment />
+          <DisplayColor>Black</DisplayColor>
+          <Editors>
+            <HMIUserGroup>
+              <DefaultPermission>Editor</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Administrators</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Editor</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemAdministrators</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+            <HMIUserGroup>
+              <DefaultPermission>Editor</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Users</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Editor</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemUsers</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+          </Editors>
+          <Guid>9a1bf4ac-f7c3-4882-843a-c14c4988d66d</Guid>
+          <Name>HMIPermissions_810</Name>
+          <NoAccess />
+          <SortPriority>100</SortPriority>
+          <Title>HMIPermissions_810</Title>
+          <Viewers>
+            <HMIUserGroup>
+              <DefaultPermission>Viewer</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Guests</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Viewer</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemGuests</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+          </Viewers>
+        </HMIPermissions>
+        <ID>10001</ID>
+        <Name>HMIDockContentMap_809</Name>
+        <NetworkID>-1</NetworkID>
+        <ParentEnabled>true</ParentEnabled>
+        <SelfEnabled>true</SelfEnabled>
+        <SortPriority>0</SortPriority>
+        <SubMember />
+        <Title>Desktop Dock</Title>
+      </HMIDockContentMap>
+      <HMIContentMap AssemblyName="TwinCAT.Analytics.Workbench.HMI">
+        <Comment />
+        <DisplayColor>Black</DisplayColor>
+        <Guid>1f86b960-6866-4ed8-8f08-37932dacf5ad</Guid>
+        <HMIPermissions>
+          <Comment />
+          <DisplayColor>Black</DisplayColor>
+          <Editors>
+            <HMIUserGroup>
+              <DefaultPermission>Editor</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Administrators</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Editor</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemAdministrators</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+            <HMIUserGroup>
+              <DefaultPermission>Editor</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Users</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Editor</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemUsers</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+          </Editors>
+          <Guid>e6ac1b6d-4d64-4efa-ae99-9ec1d44b1121</Guid>
+          <Name>HMIPermissions_1116</Name>
+          <NoAccess />
+          <SortPriority>100</SortPriority>
+          <Title>HMIPermissions_1116</Title>
+          <Viewers>
+            <HMIUserGroup>
+              <DefaultPermission>Viewer</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Guests</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Viewer</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemGuests</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+          </Viewers>
+        </HMIPermissions>
+        <ID>1</ID>
+        <Name>HMIContentMap_1115</Name>
+        <NetworkID>1</NetworkID>
+        <ParentEnabled>true</ParentEnabled>
+        <SelfEnabled>true</SelfEnabled>
+        <SortPriority>100</SortPriority>
+        <SubMember />
+        <Title>Network</Title>
+      </HMIContentMap>
+    </SubMember>
+    <Title>Dashboard</Title>
+    <UserGroupsInternal>
+      <HMIUserGroup>
+        <DefaultPermission>Editor</DefaultPermission>
+        <IsDefault>false</IsDefault>
+        <Name>Administrators</Name>
+        <RelatedGroups>
+          <HMIUserGroup>
+            <DefaultPermission>Editor</DefaultPermission>
+            <IsDefault>true</IsDefault>
+            <Name>__SystemAdministrators</Name>
+            <RelatedGroups />
+          </HMIUserGroup>
+        </RelatedGroups>
+      </HMIUserGroup>
+      <HMIUserGroup>
+        <DefaultPermission>Editor</DefaultPermission>
+        <IsDefault>false</IsDefault>
+        <Name>Users</Name>
+        <RelatedGroups>
+          <HMIUserGroup>
+            <DefaultPermission>Editor</DefaultPermission>
+            <IsDefault>true</IsDefault>
+            <Name>__SystemUsers</Name>
+            <RelatedGroups />
+          </HMIUserGroup>
+        </RelatedGroups>
+      </HMIUserGroup>
+      <HMIUserGroup>
+        <DefaultPermission>Viewer</DefaultPermission>
+        <IsDefault>false</IsDefault>
+        <Name>Guests</Name>
+        <RelatedGroups>
+          <HMIUserGroup>
+            <DefaultPermission>Viewer</DefaultPermission>
+            <IsDefault>true</IsDefault>
+            <Name>__SystemGuests</Name>
+            <RelatedGroups />
+          </HMIUserGroup>
+        </RelatedGroups>
+      </HMIUserGroup>
+    </UserGroupsInternal>
+    <Users />
+  </HMIDashboard>
+</AnalyticsProjectAdditionalElements>

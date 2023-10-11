@@ -7,7 +7,10 @@
     <RootNamespace>EDAAnalytics</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Analytics Project.tcAlyProj">
+    <Content Include="Analytics Project1.tcAlyProj">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Referenced Scope Project.tcscopex">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

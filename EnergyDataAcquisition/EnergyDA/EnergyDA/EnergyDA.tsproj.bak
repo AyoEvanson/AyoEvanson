@@ -400,7 +400,7 @@
 			</SubItem>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000006}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..5] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000006}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..5] OF BIT</Name>
 			<BitSize>6</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -409,7 +409,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-00200000000F}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..14] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-00200000000F}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..14] OF BIT</Name>
 			<BitSize>15</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -427,7 +427,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-00200000000D}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..12] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-00200000000D}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..12] OF BIT</Name>
 			<BitSize>13</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -443,6 +443,16 @@
 	</ImageDatas>
 	<Project ProjectGUID="{19BAF80B-11AB-4B10-8EE8-E6EAC1D4D602}" TargetNetId="5.119.159.52.1.1" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
+			<Licenses>
+				<Target>
+					<ManualSelect>{0070B910-0995-4F44-83BF-D1E141B4D8C3}</ManualSelect>
+					<ManualSelect>{BB40055B-8333-4223-90EA-7C4559DC7C69}</ManualSelect>
+					<ManualSelect>{02AC2825-C3C7-4D15-AAF6-4EB45EFAA2D0}</ManualSelect>
+					<ManualSelect>{EE499E71-9522-4C05-86B4-8AD0F904E0C4}</ManualSelect>
+					<ManualSelect>{88FA6DAB-09EF-464E-A413-EE4B97F3F185}</ManualSelect>
+					<ManualSelect>{BB7AE665-A8D6-41F6-954F-961DDDCDA42B}</ManualSelect>
+				</Target>
+			</Licenses>
 			<Tasks>
 				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
 					<Name>PlcTask</Name>
@@ -451,7 +461,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{B11F4577-AB23-4C31-932C-7D305DBBF892}" Name="EDA" PrjFilePath="EDA\EDA.plcproj" TmcFilePath="EDA\EDA.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{1AB61A46-F4F8-CC95-AB12-63308460A8DB}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="EDA\EDA.tmc" TmcHash="{1AB61A46-F4F8-CC95-AB12-63308460A8DB}">
 					<Name>EDA Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
