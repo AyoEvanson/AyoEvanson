@@ -1,1 +1,1 @@
-Energy Data Acquisition Project, using TwinCAT PLC, Analytics and Database server. With a jupyter python script to run analysis on the data.
+Energy Data Acquisition Project, using TwinCAT PLC, Analytics and Database server. With a jupyter python script to run analysis on the data pulled from a local SQL server.
